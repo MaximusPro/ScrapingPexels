@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\Scraper.h.obj",
+            "outputs": [
+                "C:\\Users\\Max\\source\\repos\\Scraper\\Scraper\\x64\\Debug\\vc143.pdb",
+                "x64\\Debug\\",
+                "C:\\Users\\Max\\source\\repos\\Scraper\\Scraper\\x64\\Debug\\Scraper.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "Scraper.h",
+                    "source-path": "c:\\users\\max\\source\\repos\\scraper\\scraper\\scraper.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\Scraper.obj",
+            "outputs": [
+                "x64\\Debug\\Scraper.h_75A6CE3B7F6ED7BE.ifc.dt.module.json",
+                "x64\\Debug\\Scraper.h_75A6CE3B7F6ED7BE.ifc.dt.d.json",
+                "x64\\Debug\\Scraper.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "C:\\Users\\Max\\source\\repos\\Scraper\\Scraper\\Scraper.h",
+                    "source-path": "c:\\users\\max\\source\\repos\\scraper\\scraper\\scraper.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

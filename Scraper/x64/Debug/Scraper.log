@@ -1,0 +1,11 @@
+﻿  Scanning sources for module dependencies...
+  Scraper.cpp
+C:\Users\Max\source\repos\Scraper\Scraper\Scraper.cpp(94,30): warning C4566: character represented by universal-character-name '\u2192' cannot be represented in the current code page (1250)
+C:\Users\Max\source\repos\Scraper\Scraper\Scraper.cpp(113,30): warning C4566: character represented by universal-character-name '\u2192' cannot be represented in the current code page (1250)
+C:\Users\Max\source\repos\Scraper\Scraper\Scraper.cpp(132,26): warning C4566: character represented by universal-character-name '\u043E' cannot be represented in the current code page (1250)
+C:\Users\Max\source\repos\Scraper\Scraper\Scraper.cpp(132,26): warning C4566: character represented by universal-character-name '\u0442' cannot be represented in the current code page (1250)
+C:\Users\Max\source\repos\Scraper\Scraper\Scraper.cpp(132,26): warning C4566: character represented by universal-character-name '\u0441' cannot be represented in the current code page (1250)
+C:\Users\Max\source\repos\Scraper\Scraper\Scraper.cpp(132,26): warning C4566: character represented by universal-character-name '\u0443' cannot be represented in the current code page (1250)
+C:\Users\Max\source\repos\Scraper\Scraper\Scraper.cpp(132,26): warning C4566: character represented by universal-character-name '\u0432' cannot be represented in the current code page (1250)
+C:\Users\Max\source\repos\Scraper\Scraper\Scraper.cpp(132,26): warning C4566: character represented by universal-character-name '\u0435' cannot be represented in the current code page (1250)
+  Scraper.vcxproj -> C:\Users\Max\source\repos\Scraper\x64\Debug\Scraper.exe
