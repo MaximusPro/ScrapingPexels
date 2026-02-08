@@ -201,13 +201,13 @@ void PrettyJSON(rapidjson::Document &Doc, string& FileName)
     }
 }
 
-// API key pexels: 7XwUeXZkJlRnezS7A8c4SzsKco20wgQP6gs5TdBkXlVqVKtU2SfNSdbd
+
 
 int main()
 {
     cout << "Parsing link of pictures!" << endl;
     
-    string APIKey = "7XwUeXZkJlRnezS7A8c4SzsKco20wgQP6gs5TdBkXlVqVKtU2SfNSdbd";
+    string APIKey = "";
     string query = "dog";
     int page = 1;
     string response;
