@@ -51,7 +51,12 @@ cd ScrapingPexels
 ```
 2. Open Scraper.sln in Visual Studio
 3. Select Release x64 configuration (or Debug)
-4. Edit file Scraper.cpp find ``string APIKey `` and add API key 
+4. Edit file Scraper.cpp find ``string APIKey `` and ``string query``, add API key and searching words
+   Example:
+   ```C++
+ string APIKey = "sgfjdgOPPJIOIJJIjlkmlkp";
+ string qurey = "cat";
+ ```
 5. Build the solution (Build → Build Solution)
 
 More detailed instructions will be added once a working version appears.
