@@ -55,7 +55,7 @@ cd ScrapingPexels
 Example:
 ```C++
  string APIKey = "sgfjdgOPPJIOIJJIjlkmlkp";
- string qurey = "cat";
+ string query = "cat";
  ```
 5. Build the solution (Build → Build Solution)
 
