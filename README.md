@@ -9,9 +9,7 @@ A tool for downloading photos and videos from Pexels.com
 
 ## About the Project
 
-**ScrapingPexels** is a program for bulk downloading free photos and videos from [Pexels.com](https://www.pexels.com/) without using the official API (since the free account has very strict rate limits).
-
-Right now the project is in a **very early stage** — basically just a skeleton / experiment written in C++.
+**ScrapingPexels** is a program for bulk downloading free photos and videos from [Pexels.com](https://www.pexels.com/) with API.
 
 ## Current Status (February 2026)
 
@@ -38,10 +36,9 @@ Right now the project is in a **very early stage** — basically just a skeleton
 - Visual Studio 2022 (or newer)
 - C++17 or later
 - Likely libraries (to be confirmed):
-  - cpp-httplib or libcurl (HTTP requests)
-  - nlohmann/json (if JSON parsing is needed)
-  - gumbo-parser or htmlcxx (HTML parsing)
-  - possibly OpenSSL (for HTTPS)
+  - libcurl (HTTP requests)
+  - RapidJSON (if JSON parsing is needed)
+  - gumbo-parser (HTML parsing)
 
 (exact dependency list will be added after the first working version)
 
@@ -54,7 +51,8 @@ cd ScrapingPexels
 ```
 2. Open Scraper.sln in Visual Studio
 3. Select Release x64 configuration (or Debug)
-4. Build the solution (Build → Build Solution)
+4. Edit file Scraper.cpp find ``string APIKey `` and add API key 
+5. Build the solution (Build → Build Solution)
 
 More detailed instructions will be added once a working version appears.
 # Usage (planned syntax — will be available after v0.1)
